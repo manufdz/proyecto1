@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.cabecera {
+    background-image: url("./imagenes/programacion-background.jpg");
+    width: 100%;
+    height: 350px;
+
+}
+
+.img {
+    text-align: center;
+}
+
+.logo {
+
+    width: 100px;
+    height: 100px;
+
+
+}
+
+.titulo {
+    padding-top: 100px;
+    text-align: center;
+    font-size: 5em;
+    font-style: italic;
+}
+
+nav ul a li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 6px;
+    background-color: orangered;
+}
+
+nav ul a {
+
+    text-decoration: none;
+    color: black;
+    font-style: unset;
+}
+
+/* pagina home */
+
+.seccion-fechas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.proximasfechas {
+    display: flex;
+    
+}
+
+.container {
+    
+    display: flex;
+    
+}
+
+.dias .curso .fechas button {
+    display: flex;
+    padding: 20px;
+    /* flex-direction: row; */
+
+
+    
+}
+
+.dias {
+    display: flex;
+    font-family: cursive;
+    padding: 20px;
+    flex-direction: column;
+}
+
+
+.curso {
+    display: flex;
+    font-family: cursive;
+    padding: 20px;
+    flex-direction: column;
+
+}
+
+.fechas {
+    font-size: 2em;
+    font-family: cursive;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+
+
+}
+
+
+
+/* pagina contacto */
+.contacto {
+    text-align: center;
+    font-size: 50px;
+    padding: 50px;
+    font-family: math;
+}
+
+.info {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+/* pagina conocenos */
+.conocenos {
+    text-align: center;
+    font-size: 50px;
+    padding: 35px;
+    font-family: cursive;
+}
+
+div .info {
+    text-align: center;
+    font-size: 20px;
+    font-family: math;
+}
+
+.mentores .alexandra,
+.juan {
+    display: flex;
+    flex-direction: column;
+}
+
+.mentores {
+    width: 70%;
+    margin: auto;
+
+}
+
+.alexandra img {
+    width: 200px;
+    height: 250px;
+    border-style: groove;
+    border-radius: 45%;
+    flex-direction: row-reverse;
+    display: flex;
+
+}
+
+.alexandra .nombre {
+    align-self: end;
+    display: flex;
+    padding: 5px;
+    font-family: cursive;
+
+}
+
+.alexandra div {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.alexandra p {
+    align-self: center;
+    text-align: center;
+    padding: 5px;
+    font-size: 18px;
+    font-family: math;
+}
+
+.juan img {
+    display: flex;
+    width: 200px;
+    height: 250px;
+    border-style: groove;
+    border-radius: 45%;
+
+}
+
+.juan .nombre {
+    display: flex;
+    align-self: start;
+    padding: 5px;
+    font-family: cursive;
+}
+
+.juan div {
+    display: flex;
+
+
+}
+
+.juan p {
+    align-self: center;
+    text-align: center;
+    padding: 5px;
+    font-size: 18px;
+    font-family: math
+}
